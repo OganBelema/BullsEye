@@ -12,6 +12,9 @@
 		6E72797821FFA561004685C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E72797621FFA561004685C2 /* Main.storyboard */; };
 		6E72797A21FFA568004685C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E72797921FFA568004685C2 /* Assets.xcassets */; };
 		6E72797D21FFA568004685C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E72797B21FFA568004685C2 /* LaunchScreen.storyboard */; };
+		6EC506912217239200A7F528 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC506902217239200A7F528 /* AboutViewController.swift */; };
+		6EC5069322172BC200A7F528 /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC5069222172BC200A7F528 /* AboutAuthorViewController.swift */; };
+		6EC50697221AB8FB00A7F528 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EC50696221AB8FA00A7F528 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		6E72797921FFA568004685C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E72797C21FFA568004685C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E72797E21FFA568004685C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC506902217239200A7F528 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		6EC5069222172BC200A7F528 /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
+		6EC50696221AB8FA00A7F528 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				6E72797221FFA561004685C2 /* AppDelegate.swift */,
 				6E72797421FFA561004685C2 /* ViewController.swift */,
-				6E72797621FFA561004685C2 /* Main.storyboard */,
+				6EC506902217239200A7F528 /* AboutViewController.swift */,
 				6E72797921FFA568004685C2 /* Assets.xcassets */,
+				6E72797621FFA561004685C2 /* Main.storyboard */,
 				6E72797B21FFA568004685C2 /* LaunchScreen.storyboard */,
+				6EC50696221AB8FA00A7F528 /* BullsEye.html */,
 				6E72797E21FFA568004685C2 /* Info.plist */,
+				6EC5069222172BC200A7F528 /* AboutAuthorViewController.swift */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -123,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E72797D21FFA568004685C2 /* LaunchScreen.storyboard in Resources */,
+				6EC50697221AB8FB00A7F528 /* BullsEye.html in Resources */,
 				6E72797A21FFA568004685C2 /* Assets.xcassets in Resources */,
 				6E72797821FFA561004685C2 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EC506912217239200A7F528 /* AboutViewController.swift in Sources */,
 				6E72797521FFA561004685C2 /* ViewController.swift in Sources */,
 				6E72797321FFA561004685C2 /* AppDelegate.swift in Sources */,
+				6EC5069322172BC200A7F528 /* AboutAuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +296,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
